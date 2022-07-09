@@ -17,7 +17,7 @@
 _relname=SPIRV-Headers
 
 pkgname=spirv-headers
-epoch=1
+# epoch=1
 pkgver=1.3.216.0
 pkgrel=1
 pkgdesc="SPIR-V Headers"
@@ -29,6 +29,7 @@ license=(
   "MIT"
 )
 makedepends=(
+   # Official Arch Linux
   "cmake"
 )
 
